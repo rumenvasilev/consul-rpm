@@ -1,7 +1,7 @@
 %if 0%{?_version:1}
 %define         _verstr      %{_version}
 %else
-%define         _verstr      0.19.0
+%define         _verstr      0.18.5
 %endif
 
 Name:           consul-template
@@ -105,6 +105,7 @@ rm -rf %{buildroot}
 %changelog
 * Mon Jul 03 2017 Rumen Vasilev <ice4o@hotmail.com>
 - Bumped to version 0.19.0
+- switched back to 0.18.5 as a step-stone to 0.19.0
 * Wed Sep 28 2016 Andy Bohne <andy@andrewbohne.com>
 - Bumped version to 0.16.0
 * Thu Jun 30 2016 Paul Lussier <pllsaph@gmail.com>
